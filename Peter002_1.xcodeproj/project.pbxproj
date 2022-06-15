@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F5AE43492859797100057ACB /* Peter002_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE43482859797100057ACB /* Peter002_1App.swift */; };
-		F5AE434B2859797100057ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE434A2859797100057ACB /* ContentView.swift */; };
 		F5AE434D2859797400057ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AE434C2859797400057ACB /* Assets.xcassets */; };
 		F5AE43502859797400057ACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AE434F2859797400057ACB /* Preview Assets.xcassets */; };
 		F5AE435A2859797400057ACB /* Peter002_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE43592859797400057ACB /* Peter002_1Tests.swift */; };
 		F5AE43642859797400057ACB /* Peter002_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE43632859797400057ACB /* Peter002_1UITests.swift */; };
 		F5AE43662859797400057ACB /* Peter002_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE43652859797400057ACB /* Peter002_1UITestsLaunchTests.swift */; };
+		F5AE43732859798800057ACB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE43722859798800057ACB /* HomeView.swift */; };
+		F5AE4375285999F600057ACB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE4374285999F600057ACB /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F5AE43452859797100057ACB /* Peter002_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peter002_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AE43482859797100057ACB /* Peter002_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter002_1App.swift; sourceTree = "<group>"; };
-		F5AE434A2859797100057ACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5AE434C2859797400057ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5AE434F2859797400057ACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5AE43552859797400057ACB /* Peter002_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Peter002_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		F5AE435F2859797400057ACB /* Peter002_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Peter002_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AE43632859797400057ACB /* Peter002_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter002_1UITests.swift; sourceTree = "<group>"; };
 		F5AE43652859797400057ACB /* Peter002_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter002_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5AE43722859798800057ACB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F5AE4374285999F600057ACB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				F5AE43482859797100057ACB /* Peter002_1App.swift */,
-				F5AE434A2859797100057ACB /* ContentView.swift */,
+				F5AE43722859798800057ACB /* HomeView.swift */,
+				F5AE4374285999F600057ACB /* SecondView.swift */,
 				F5AE434C2859797400057ACB /* Assets.xcassets */,
 				F5AE434E2859797400057ACB /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AE434B2859797100057ACB /* ContentView.swift in Sources */,
+				F5AE4375285999F600057ACB /* SecondView.swift in Sources */,
+				F5AE43732859798800057ACB /* HomeView.swift in Sources */,
 				F5AE43492859797100057ACB /* Peter002_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

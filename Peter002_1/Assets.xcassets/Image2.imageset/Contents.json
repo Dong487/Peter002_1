@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "potato_38b8b14f-6ec5-4afd-b6e8-535eca3e256f_c7a4235ad8b414bc032ab389bc93289d71374c9d.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
